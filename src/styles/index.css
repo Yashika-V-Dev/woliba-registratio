@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Lato:wght@400&family=Playfair+Display:wght@400;500;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: #f8f8f6;
+  color: #1a1a1a;
+  -webkit-font-smoothing: antialiased;
+}
+
+@layer components {
+  .woliba-input {
+    @apply w-full px-3 py-2.5 text-sm border border-gray-200 rounded-md bg-white text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-woliba-red/30 focus:border-woliba-red transition-all duration-200;
+  }
+  .woliba-btn-primary {
+    @apply w-full py-2.5 px-6 bg-woliba-red text-white text-sm font-medium rounded-md hover:bg-woliba-red-dark focus:outline-none focus:ring-2 focus:ring-woliba-red/40 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .woliba-btn-secondary {
+    @apply py-2 px-5 border border-gray-300 text-sm text-gray-600 font-medium rounded-md hover:border-gray-400 hover:text-gray-800 focus:outline-none transition-all duration-200;
+  }
+  .woliba-card {
+    @apply bg-white rounded-xl shadow-sm border border-gray-100 p-8;
+  }
+  .woliba-label {
+    @apply block text-xs font-medium text-gray-600 mb-1;
+  }
+  .woliba-error {
+    @apply text-xs text-red-500 mt-1;
+  }
+}
+
+.otp-input {
+  width: 44px; height: 48px; text-align: center;
+  font-size: 18px; font-weight: 600;
+  border: 1.5px solid #e5e7eb; border-radius: 8px;
+  background: white; transition: all 0.2s; color: #1a1a1a;
+}
+.otp-input:focus { outline: none; border-color: #C8515A; box-shadow: 0 0 0 3px rgba(200,81,90,0.15); }
+.otp-input.filled { border-color: #C8515A; background: #fff5f5; }
+
+.interest-card { cursor: pointer; transition: all 0.2s ease; }
+.interest-card:hover { transform: translateY(-2px); }
+.interest-card.selected { border-color: #C8515A !important; background: #fff5f5 !important; }
+
+.pillar-card { cursor: pointer; transition: all 0.2s ease; }
+.pillar-card:hover { transform: translateY(-2px); }
+.pillar-card.selected { border-color: #C8515A !important; background: #fff5f5 !important; }
+.pillar-card.disabled-card { opacity: 0.5; cursor: not-allowed; }
+
+.skeleton {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: skeleton-loading 1.5s infinite;
+  border-radius: 8px;
+}
+@keyframes skeleton-loading {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+.page-transition { animation: slideUp 0.35s ease-out; }
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.Toastify__toast { font-family: 'DM Sans', sans-serif !important; font-size: 14px !important; border-radius: 10px !important; }
