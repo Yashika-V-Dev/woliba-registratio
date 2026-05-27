@@ -4,7 +4,6 @@ import { useDispatch, useSelector } from 'react-redux'
 import { toast } from 'react-toastify'
 import { fetchInterests } from '../redux/slices/interestsSlice'
 import { setSelectedInterests, setInterestsDone, setStep } from '../redux/slices/registrationSlice'
-import AuthLayout from '../components/layout/AuthLayout'
 import Button from '../components/common/Button'
 
 const CLOUDFRONT_BASE = 'https://d38xnw03cl4zf4.cloudfront.net'
