@@ -112,14 +112,4 @@ const res = await verifyCompany(data);
 | `/user-registration` | POST | Step 7 |
 
 ## Deployment — netlify
-netlify : https://sparkly-mermaid-15aac9.netlify.app/register
-
-
-
-## Assumptions
-
-- Mock services simulate real API behavior with ~1s delays
-- OTP mock accepts any 6-digit code (test with `724106`)
-- Company password validation: min 8 chars, 1 uppercase, 1 number
-- Redux state persists to localStorage via redux-persist
-- Step guards prevent direct URL access to future steps
+netlify : https://sparkly-mermaid-15aac9.netlify.app
