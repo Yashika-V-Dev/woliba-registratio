@@ -124,7 +124,7 @@ Screen 2:
 <img width="1339" height="622" alt="image" src="https://github.com/user-attachments/assets/4856645b-0285-4763-b15c-1e6f261aa4b4" />
 
 Screen 3:
-<img width="1337" height="629" alt="image" src="https://github.com/user-attachments/assets/a520cc76-8726-45d2-aebe-a7dcf3cd42e8" />
+<img width="1352" height="635" alt="Screen3" src="https://github.com/user-attachments/assets/fdd09397-ac5e-47bf-8c21-62ce1f7786af" />
 
 Screen 4 :
 <img width="1325" height="631" alt="image" src="https://github.com/user-attachments/assets/69fc20de-5b43-45d8-bb60-1dd4798622b9" />
