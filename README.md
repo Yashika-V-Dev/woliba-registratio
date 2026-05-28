@@ -113,3 +113,32 @@ const res = await verifyCompany(data);
 
 ## Deployment — netlify
 netlify : https://sparkly-mermaid-15aac9.netlify.app
+
+
+## Preview Images:
+
+Screen 1:
+<img width="1357" height="632" alt="image" src="https://github.com/user-attachments/assets/14c23e41-8dcc-4647-ba31-cff943935b90" />
+
+Screen 2: 
+<img width="1339" height="622" alt="image" src="https://github.com/user-attachments/assets/4856645b-0285-4763-b15c-1e6f261aa4b4" />
+
+Screen 3:
+<img width="1337" height="629" alt="image" src="https://github.com/user-attachments/assets/a520cc76-8726-45d2-aebe-a7dcf3cd42e8" />
+
+Screen 4 :
+<img width="1325" height="631" alt="image" src="https://github.com/user-attachments/assets/69fc20de-5b43-45d8-bb60-1dd4798622b9" />
+
+Scrren 5:
+<img width="1355" height="635" alt="image" src="https://github.com/user-attachments/assets/abd852f4-946c-491a-9f35-656f53f39332" />
+
+Screen 6 :
+<img width="1357" height="632" alt="image" src="https://github.com/user-attachments/assets/378cfbb3-9731-452b-806d-ea9dc36c6dda" />
+
+Screen 7 :
+<img width="1320" height="605" alt="image" src="https://github.com/user-attachments/assets/0048b213-626a-4322-bd4c-cafe7fbe92c1" />
+
+Screen 8 :
+<img width="1139" height="602" alt="image" src="https://github.com/user-attachments/assets/f5aa6205-1ffd-434c-b7fc-a0939ea0d2e8" />
+
+
