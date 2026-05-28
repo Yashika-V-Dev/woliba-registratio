@@ -47,7 +47,7 @@ src/
 
 ### 1. Clone the repository
 ```bash
-git clone <https://github.com/Yashika-V-Dev/woliba-registratio.git>
+git clone https://github.com/Yashika-V-Dev/woliba-registratio.git
 cd woliba-registration
 ```
 
@@ -111,43 +111,5 @@ const res = await verifyCompany(data);
 | `/viewWellnessInterest` | GET | Step 5 |
 | `/user-registration` | POST | Step 7 |
 
-## Deployment — Vercel
-
-### One-click deploy
-```bash
-npm install -g vercel
-vercel login
-vercel --prod
-```
-
-### Manual setup
-1. Push code to GitHub
-2. Connect repo on [vercel.com](https://vercel.com)
-3. Set environment variables in Vercel dashboard
-4. Deploy
-
-### vercel.json (create in project root)
-```json
-{
-  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
-}
-```
-
-## Assumptions
-
-- Mock services simulate real API behavior with ~1s delays
-- OTP mock accepts any 6-digit code (test with `724106`)
-- Company password validation: min 8 chars, 1 uppercase, 1 number
-- Redux state persists to localStorage via redux-persist
-- Step guards prevent direct URL access to future steps
-
-## Screenshots
-
-All 8 registration screens matching the provided Figma design with:
-- Woliba logo top-left
-- Language selector top-right
-- Background fitness character illustrations (subtle, low opacity)
-- Centered white card with clean form layout
-- Woliba red (`#C8515A`) primary color
-- DM Sans font family
-- Terms of Use / Contact Us footer links
+## Deployment — netlify
+netlify : https://sparkly-mermaid-15aac9.netlify.app
